@@ -32,21 +32,11 @@
 --------------- Tabs Style ------------------
 */
 
-.resp-tabs-list {
-	padding: 22.5% 0px!important;
-}
-
-.VerticalTab.tabs_ver_6.resp-vtabs ul.resp-tabs-list {
-    float: right!important;
-    width: 17.5%;
-	margin-top: 0px !important;
-}
 .VerticalTab.tabs_ver_6.resp-vtabs .resp-tabs-container {
 	padding: 0px;
 	background-color: transparent;
 	border: 0;
 	float: left;
-	width: 75%;
 	min-height: auto;
 	clear: none;
 	border-radius: 0;
@@ -66,6 +56,10 @@
 	font-weight: 900;
 	text-transform: uppercase;
 	color: #121212;
+}
+
+.VerticalTab.tabs_ver_6 .resp-tabs-list {
+	width: 100%;
 }
 
 .VerticalTab.tabs_ver_6 .resp-tabs-list .resp-tab-active {

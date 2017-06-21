@@ -3785,3 +3785,12 @@
 
   return new Lightbox();
 }));
+
+;(function($, window, document, undefined){
+  $(function() {
+    $('.js-reg-click').click(function(){
+      $('[data-tab-name=\'contact\']').click();
+      return false;
+    })
+  });
+})(window.Zepto || window.jQuery, window, document);

@@ -13,6 +13,8 @@ http://www.templatemo.com/tm-502-short
 ===============================================
 */
 
+html, body {height:100%;}
+
 body {
 	font-family: "Open Sans", sans-serif;
 }
@@ -108,7 +110,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 100%;
+    background-color: #171a1a;
 }
 
 
@@ -124,53 +126,58 @@ body {
     overflow: hidden;
  }
  .home-container {
-  margin-top: 28.5%;
   background-color: #fff;
+  margin-top: 24%;
+  padding: 30px 15px;
  }
 
- .home-container .left-content {
-    padding-top: 25%;
-    padding-left: 35px;
- }
-
- .home-container .left-content .left-line {
+ .home-container .left-line {
     width: 3px;
-    height: 74px;
+    height: 100px;
     background-color: #121212;
     float: left;
     margin-right: 15px;
  }
 
- .home-container .left-content h2 {
+ .home-container h2 {
     font-size: 32px;
     letter-spacing: 0.5px;
     color: #121212;
     text-transform: uppercase;
     margin: 0px;
     font-weight: 900;
+     width: 250px;
  }
 
-  .home-container .left-content h2 em {
+  .home-container h2 em {
     font-style: normal;
     color: #f78b26;
   }
 
-  .home-container .left-content p {
+  .home-container p {
     margin-top: 30px;
     font-size: 14px;
     font-style: italic;
     color: #343434;
   }
 
-  .home-container .left-content p em {
+  .home-container .content p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: normal;
+    color: #343434;
+  }
+
+  .home-container p em {
     font-weight: 500;
   }
 
-  .home-container .left-content .primary-button {
-    margin-top: 30px;
+  .home-container .primary-button {
+    margin: 13px 0;
+
   }
 
-  .home-container .left-content .primary-button a {
+  .home-container .primary-button a {
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 700;
@@ -179,7 +186,7 @@ body {
     padding: 11px 14px;
   }
 
-  .home-container .left-content .primary-button a:hover {
+  .home-container .primary-button a:hover {
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
