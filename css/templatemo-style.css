@@ -128,7 +128,7 @@ body {
  .home-container {
   background-color: #fff;
   margin-top: 24%;
-  padding: 30px 15px;
+  padding-top: 25px;
  }
 
  .home-container .left-line {
@@ -979,4 +979,44 @@ body.lb-disable-scrolling {
 
 .owl-carousel .owl-nav {
   display: none;
+}
+
+.container-image {
+  width: 100%;
+  margin-top: 10px;
+}
+
+div.english-version {
+  margin: 0 30px;
+  display: none;
+}
+
+@media only screen and (max-width: 768px){
+  div.english-version {
+    display: block;
+  }
+}
+
+div.english-version .english-version-link div {
+  padding: 21px;
+  background: white;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #121212;
+}
+a.english-version-link:hover {
+  text-decoration: none;
+  color: #121212;
+}
+li.english-version.resp-tab-item {
+  background: none !important;
+  padding: 0 !important;
+}
+li.english-version .english-version-link {
+  color: #f78b26;
+}
+
+li.english-version .english-version-link div {
+  padding: 10px;
 }
