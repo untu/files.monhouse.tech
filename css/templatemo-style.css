@@ -474,7 +474,7 @@ footer p em {
 
   .home-container {
     margin-top: 0%;
-    text-align: center;
+    /*text-align: center;*/
   }
 
   .home-container .left-content {
@@ -523,15 +523,20 @@ footer p em {
   .more-info {
     padding: 0px 30px 30px 30px;
   }
+  .home-container ,  .about-container {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 991px){
-  .home-container {
-    margin-bottom: 60px;
+  .home-container ,  .about-container {
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .home-container .left-content {
     padding: 30px;
-    text-align: center;
+    /*text-align: center;*/
   }
 
   .home-container .left-content .left-line {
@@ -997,7 +1002,7 @@ body.lb-disable-scrolling {
   margin-top: 10px;
 }
 
-div.english-version {
+/*div.english-version {
   margin: 0 30px;
   display: none;
 }
@@ -1007,7 +1012,7 @@ div.english-version {
     display: block;
   }
 }
-
+*/
 div.english-version .english-version-link div {
   padding: 21px;
   background: white;
