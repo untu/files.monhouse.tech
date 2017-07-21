@@ -3791,6 +3791,77 @@
     $('.js-reg-click').click(function(){
       $('[data-tab-name=\'contact\']').click();
       return false;
+    });
+
+    var imgs = [
+      '0W1A0163.jpg',
+      '0W1A0212.jpg',
+      '0W1A0246.jpg',
+      '0W1A0283.jpg',
+      '0W1A0325.jpg',
+      '0W1A0398.jpg',
+      '0W1A0437.jpg',
+      '0W1A0175.jpg',
+      '0W1A0222.jpg',
+      '0W1A0249.jpg',
+      '0W1A0285.jpg',
+      '0W1A0336.jpg',
+      '0W1A0403.jpg',
+      '0W1A0441.jpg',
+      '0W1A0180.jpg',
+      '0W1A0223.jpg',
+      '0W1A0252.jpg',
+      '0W1A0288.jpg',
+      '0W1A0339.jpg',
+      '0W1A0410.jpg',
+      '0W1A0448.jpg',
+      '0W1A0181.jpg',
+      '0W1A0225.jpg',
+      '0W1A0253.jpg',
+      '0W1A0294.jpg',
+      '0W1A0352.jpg',
+      '0W1A0412.jpg',
+      '0W1A0182.jpg',
+      '0W1A0229_pp.jpg',
+      '0W1A0257.jpg',
+      '0W1A0298.jpg',
+      '0W1A0356.jpg',
+      '0W1A0413.jpg',
+      '0W1A0190.jpg',
+      '0W1A0236.jpg',
+      '0W1A0260.jpg',
+      '0W1A0300.jpg',
+      '0W1A0378.jpg',
+      '0W1A0424.jpg',
+      '0W1A0199.jpg',
+      '0W1A0238.jpg',
+      '0W1A0264.jpg',
+      '0W1A0308.jpg',
+      '0W1A0382.jpg',
+      '0W1A0426.jpg',
+      '0W1A0202.jpg',
+      '0W1A0241.jpg',
+      '0W1A0268.jpg',
+      '0W1A0317.jpg',
+      '0W1A0384.jpg',
+      '0W1A0429.jpg',
+      '0W1A0211.jpg',
+      '0W1A0242.jpg',
+      '0W1A0275.jpg',
+      '0W1A0320.jpg',
+      '0W1A0391.jpg',
+      '0W1A0436.jpg'
+    ];
+
+    var $container = $('#gallery-box');
+
+    imgs.forEach(function(name){
+      $container.append(
+        '<a data-gallery="" href="http://www.saymon.info/wp-content/uploads/2017/07/BMM/'+ name +'">' +
+        '<img src="http://www.saymon.info/wp-content/uploads/2017/07/BMM/small/'+ name +'">' +
+        '</a>'
+      )
     })
+
   });
 })(window.Zepto || window.jQuery, window, document);

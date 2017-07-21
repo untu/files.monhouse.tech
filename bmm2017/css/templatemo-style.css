@@ -146,8 +146,7 @@ body {
   text-transform: uppercase;
   margin-left: 38px;
   font-weight: 900;
-}
- }
+  }
 
   .home-container h2 em {
     font-style: normal;
@@ -1036,3 +1035,15 @@ li.english-version .english-version-link {
 li.english-version .english-version-link div {
   padding: 10px;
 }
+
+/* GALLERY */
+.gallery-container {
+  margin-top: 24%;
+  padding-top: 25px;
+}
+
+.gallery-box a img {
+  width: 185px;
+  margin: 0 5px 5px 0;
+}
+/* /GALLERY */
