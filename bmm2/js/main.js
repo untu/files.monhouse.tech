@@ -3795,7 +3795,6 @@
 
     var imgs = [
       'DSC01007.jpg',
-      'DSC01008.jpg',
       'DSC01011.jpg',
       'DSC01024.jpg',
       'DSC01027.jpg',
@@ -3824,8 +3823,8 @@
 
     imgs.forEach(function(name){
       $container.append(
-        '<a data-gallery="" href="/photos/'+ name +'">' +
-        '<img src="/photos/small/'+ name +'">' +
+        '<a data-gallery="" href="photos/'+ name +'">' +
+        '<img src="photos/small/'+ name +'">' +
         '</a>'
       )
     })
