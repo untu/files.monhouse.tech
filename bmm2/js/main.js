@@ -3823,8 +3823,8 @@
 
     imgs.forEach(function(name){
       $container.append(
-        '<a data-gallery="" href="photos/'+ name +'">' +
-        '<img src="photos/small/'+ name +'">' +
+        '<a data-gallery="" href="bmm2/photos/'+ name +'">' +
+        '<img src="bmm2/photos/small/'+ name +'">' +
         '</a>'
       )
     })
