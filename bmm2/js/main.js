@@ -3794,37 +3794,37 @@
     });
 
     var imgs = [
-      'DSC01007.jpg',
-      'DSC01011.jpg',
-      'DSC01024.jpg',
-      'DSC01027.jpg',
-      'DSC01031.jpg',
-      'DSC01034.jpg',
-      'DSC01045.jpg',
-      'DSC01049.jpg',
-      'DSC01062.jpg',
-      'DSC01064.jpg',
-      'DSC01079.jpg',
-      'DSC01086.jpg',
-      'DSC01096.jpg',
-      'DSC01101.jpg',
-      'DSC01105.jpg',
-      'DSC01107.jpg',
-      'DSC01112.jpg',
-      'DSC01115.jpg',
-      'DSC01118.jpg',
-      'DSC01141.jpg',
-      'DSC01018.jpg',
-      'DSC01060.jpg',
-      'DSC01136.jpg',
+      'DSC01007',
+      'DSC01011',
+      'DSC01024',
+      'DSC01027',
+      'DSC01031',
+      'DSC01034',
+      'DSC01045',
+      'DSC01049',
+      'DSC01062',
+      'DSC01064',
+      'DSC01079',
+      'DSC01086',
+      'DSC01096',
+      'DSC01101',
+      'DSC01105',
+      'DSC01107',
+      'DSC01112',
+      'DSC01115',
+      'DSC01118',
+      'DSC01141',
+      'DSC01018',
+      'DSC01060',
+      'DSC01136',
     ];
 
     var $container = $('#gallery-box');
 
     imgs.forEach(function(name){
       $container.append(
-        '<a data-gallery="" href="http://monhouse.tech/bmm2/photos/'+ name +'">' +
-        '<img src="http://monhouse.tech/bmm2/photos/small/'+ name +'">' +
+        '<a data-gallery="" href="http://monhouse.tech/bmm2/photos/'+ name +'.JPG">' +
+        '<img src="http://monhouse.tech/bmm2/photos/small/'+ name +'.JPG">' +
         '</a>'
       )
     })
