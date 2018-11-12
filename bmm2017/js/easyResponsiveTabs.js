@@ -136,6 +136,11 @@
                 $respTabs.find("[role=tab]").each(function () {
 
                     var $currentTab = $(this);
+
+                    if ($currentTab.hasClass('link')) {
+                      return true; // List item is link.
+                    }
+
                     $currentTab.click(function () {
 
                         var $currentTab = $(this);

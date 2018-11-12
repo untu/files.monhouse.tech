@@ -84,7 +84,7 @@ jQuery.noConflict()(function($) {
 
         var animation_style_1 = 'bounceIn';
         
-        $('.HorizontalTab_1 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.HorizontalTab_1 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.HorizontalTab_1 .resp-tabs-container').addClass('animated ' + animation_style_1);
             $('.HorizontalTab_1 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -97,7 +97,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_2 = 'fadeInLeft';
         
-        $('.HorizontalTab_2 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.HorizontalTab_2 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.HorizontalTab_2 .resp-tabs-container').addClass('animated ' + animation_style_2);
             $('.HorizontalTab_2 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -110,7 +110,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_3 = 'fadeInUp';
         
-        $('.HorizontalTab_3 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.HorizontalTab_3 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.HorizontalTab_3 .resp-tabs-container').addClass('animated ' + animation_style_3);
             $('.HorizontalTab_3 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -123,7 +123,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_4 = 'fadeIn';
         
-        $('.HorizontalTab_4 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.HorizontalTab_4 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.HorizontalTab_4 .resp-tabs-container').addClass('animated ' + animation_style_4);
             $('.HorizontalTab_4 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -136,7 +136,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_5 = 'fadeInDown';
         
-        $('.HorizontalTab_5 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.HorizontalTab_5 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.HorizontalTab_5 .resp-tabs-container').addClass('animated ' + animation_style_5);
             $('.HorizontalTab_5 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -191,7 +191,7 @@ jQuery.noConflict()(function($) {
 
         var animation_style_1 = 'bounceIn';
         
-        $('.VerticalTab_1 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.VerticalTab_1 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.VerticalTab_1 .resp-tabs-container').addClass('animated ' + animation_style_1);
             $('.VerticalTab_1 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -204,7 +204,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_2 = 'bounceIn';
         
-        $('.VerticalTab_2 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.VerticalTab_2 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.VerticalTab_2 .resp-tabs-container').addClass('animated ' + animation_style_2);
             $('.VerticalTab_2 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -217,7 +217,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_3 = 'bounceIn';
         
-        $('.VerticalTab_3 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.VerticalTab_3 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.VerticalTab_3 .resp-tabs-container').addClass('animated ' + animation_style_3);
             $('.VerticalTab_3 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -230,7 +230,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_4 = 'bounceIn';
         
-        $('.VerticalTab_4 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.VerticalTab_4 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.VerticalTab_4 .resp-tabs-container').addClass('animated ' + animation_style_4);
             $('.VerticalTab_4 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -244,7 +244,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_5 = 'bounceIn';
         
-        $('.VerticalTab_5 ul.resp-tabs-list li[class^=tabs-]').click(function() {
+        $('.VerticalTab_5 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
 
             $('.VerticalTab_5 .resp-tabs-container').addClass('animated ' + animation_style_5);
             $('.VerticalTab_5 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -257,8 +257,7 @@ jQuery.noConflict()(function($) {
         
         var animation_style_6 = 'fadeIn';
         
-        $('.VerticalTab_6 ul.resp-tabs-list li[class^=tabs-]').click(function() {
-
+        $('.VerticalTab_6 ul.resp-tabs-list li[class^=tabs-]:not(.link)').click(function() {
             $('.VerticalTab_6 .resp-tabs-container').addClass('animated ' + animation_style_6);
             $('.VerticalTab_6 .resp-tabs-container').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
                 $('.VerticalTab_6 .resp-tabs-container').removeClass('animated ' + animation_style_6);
